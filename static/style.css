@@ -1,18 +1,18 @@
 
 
 h1{
-    color: rgb(0, 252, 252); 
+    color: rgb(197, 0, 252); 
     text-align: center;
 }
 
 body{
-    background: #565656;
+    background: #f5e1e1;
     color: azure;
     font-family: "Montserrat Alternates", serif;
 }
 
 a{
-    color: aliceblue;
+    color: rgb(5, 138, 255);
 }
 
 .blue_button{
@@ -31,8 +31,15 @@ a{
     background: #ee0707;
 }
 nav{
-    background: #edea46;
+    background: #46ed59;
 }
-/* .my_head{
-    margin-top: 0px !important; 
-} */
+/* .carousel-inner{  */
+    
+
+
+.navbar-brand{
+    color: blueviolet; 
+}
+.card{
+    color: rgb(61, 3, 71);
+}
