@@ -76,12 +76,16 @@
             </button>
           </div>
 
+          <h3>
+            Товари
+          </h3>
+
           <div class="card" style="width: 18rem;">
             <img src="static/img/айфон_1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Купити</a>
             </div>
           </div>
 
@@ -90,7 +94,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Купити</a>
             </div>
           </div>
 
@@ -99,7 +103,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Купити</a>
             </div>
           </div>
 
@@ -108,9 +112,33 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Купити</a>
             </div>
           </div>
+
+          <section>
+            
+            <div class="items">
+
+            {% for id,name,description,price,category_id,image in items  %}
+          
+            <div class="card" style="width: 18rem;">
+              <img src="{{url_for('static', filename = image)}}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                {{name}}
+                </h5>
+                <p class="card-text">{{price}}грн</p>
+                <p class = "card-text"> {{description}}</p>
+                <a href="#" class="btn btn-primary">Купити</a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+   
+          </section>
+
     </main>
     <footer>
 

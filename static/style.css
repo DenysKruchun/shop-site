@@ -12,7 +12,8 @@ body{
 }
 
 a{
-    color: rgb(5, 138, 255);
+    color: rgb(172, 76, 241);
+    
 }
 
 .blue_button{
@@ -31,15 +32,53 @@ a{
     background: #ee0707;
 }
 nav{
-    background: #46ed59;
+    background: #04dffc;
 }
 /* .carousel-inner{  */
     
 
 
 .navbar-brand{
-    color: blueviolet; 
+    color: rgb(164, 28, 5); 
 }
 .card{
-    color: rgb(61, 3, 71);
+    color: rgb(10, 0, 12);
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    gap: 10px;
+    background-color: #f6fec9;
+
+}
+
+
+/* .my_head{
+    margin-top: 0px !important; 
+} */    
+
+
+.carousel{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    max-height :450px; 
+    overflow: hidden;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    gap: 10px;
+   
+
+   
+}
+h3{
+    color: #790202;
+     
+
+}
+.btn btn_primary{
+    color: #fd0303;
+    background-color: #e340f1;
 }
