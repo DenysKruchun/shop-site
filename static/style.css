@@ -7,12 +7,20 @@ h1{
 
 body{
     background: #f5e1e1;
+<<<<<<< HEAD
     color: rgb(9, 9, 12);
+=======
+    color: azure;
+>>>>>>> 223d3c0413fa434bce8d0884d96a7bff1e3caff2
     font-family: "Montserrat Alternates", serif;
 }
 
 a{
+<<<<<<< HEAD
     color: rgb(12, 12, 13);
+=======
+    color: rgb(172, 76, 241);
+>>>>>>> 223d3c0413fa434bce8d0884d96a7bff1e3caff2
     
 }
 
@@ -82,6 +90,7 @@ h3{
     color: #fd0303;
     background-color: #e340f1;
 }
+<<<<<<< HEAD
 footer{
     background-color:wheat ;
     width: auto;
@@ -98,3 +107,5 @@ footer{
     
 
 }
+=======
+>>>>>>> 223d3c0413fa434bce8d0884d96a7bff1e3caff2
